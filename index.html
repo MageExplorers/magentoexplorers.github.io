@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MageExplorers | Magento & Adobe Commerce Experts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .hero-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 bg-blue-600 rounded-xl flex items-center justify-center text-white font-bold text-xl">M</div>
+                <span class="text-2xl font-semibold tracking-tight">MageExplorers</span>
+            </div>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <a href="#services" class="hover:text-blue-600 transition-colors">Services</a>
+                <a href="#about" class="hover:text-blue-600 transition-colors">About</a>
+                <a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a>
+            </div>
+            <a href="https://github.com/MageExplorers" target="_blank" 
+               class="flex items-center gap-2 px-4 py-2 bg-gray-900 text-white rounded-xl hover:bg-gray-800 transition-colors text-sm font-medium">
+                <i class="fab fa-github"></i>
+                <span>GitHub Org</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg text-white py-24">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h1 class="text-5xl md:text-6xl font-bold tracking-tight mb-6">
+                Magento & Adobe Commerce<br>Explorers
+            </h1>
+            <p class="text-xl md:text-2xl max-w-2xl mx-auto mb-10 text-blue-100">
+                Expert infrastructure, performance optimization, custom development, and modernization for Adobe Commerce platforms.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#services" 
+                   class="px-8 py-4 bg-white text-blue-700 font-semibold rounded-2xl hover:bg-blue-50 transition-all text-lg">
+                    Our Services
+                </a>
+                <a href="https://bradclampitt.github.io/" target="_blank"
+                   class="px-8 py-4 border-2 border-white font-semibold rounded-2xl hover:bg-white/10 transition-all text-lg">
+                    Meet the Founder →
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">What We Do</h2>
+                <p class="text-lg text-gray-600 max-w-md mx-auto">
+                    Deep expertise in enterprise eCommerce platforms with a focus on stability, performance, and scalability.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-3xl hover:shadow-xl transition-all group">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">⚡</div>
+                    <h3 class="text-2xl font-semibold mb-3">Performance & Infrastructure</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start gap-2"><span class="text-green-500 mt-1">•</span> Database optimization & archival</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500 mt-1">•</span> AWS & Proxmox deployments</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500 mt-1">•</span> Caching, scaling & monitoring</li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-3xl hover:shadow-xl transition-all group">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">🛠️</div>
+                    <h3 class="text-2xl font-semibold mb-3">Custom Development</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start gap-2"><span class="text-green-500 mt-1">•</span> Custom modules & extensions</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500 mt-1">•</span> Headless & PWA solutions</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500 mt-1">•</span> Integrations & automation</li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-3xl hover:shadow-xl transition-all group">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center mb-6 text-2xl">📈</div>
+                    <h3 class="text-2xl font-semibold mb-3">Modernization & Consulting</h3>
+                    <ul class="space-y-3 text-gray-600">
+                        <li class="flex items-start gap-2"><span class="text-green-500 mt-1">•</span> Platform audits & migrations</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500 mt-1">•</span> Runbooks & operational excellence</li>
+                        <li class="flex items-start gap-2"><span class="text-green-500 mt-1">•</span> Team enablement & strategy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-8">About MageExplorers</h2>
+            <div class="prose prose-lg mx-auto text-gray-700">
+                <p>
+                    Founded by Bradley Clampitt, MageExplorers delivers specialized consulting for Magento 2 and Adobe Commerce. 
+                    With deep experience in large-scale infrastructure, performance tuning, custom module development, 
+                    and enterprise deployments, we help businesses build resilient, high-performing eCommerce platforms.
+                </p>
+                <p class="mt-6">
+                    From database archival projects that dramatically reduce costs to Proxmox/Docker homelab-style 
+                    development environments and production AWS setups — we focus on practical, production-grade solutions.
+                </p>
+            </div>
+            <a href="https://bradclampitt.github.io/" target="_blank"
+               class="inline-flex items-center gap-3 mt-10 text-blue-600 hover:text-blue-700 font-medium text-lg group">
+                Learn more about the founder
+                <span class="group-hover:translate-x-1 transition-transform">→</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="bg-gray-900 text-gray-400 py-16">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+            <div>
+                <div class="flex items-center gap-3 text-white mb-6">
+                    <div class="w-8 h-8 bg-blue-600 rounded-xl flex items-center justify-center text-xl font-bold">M</div>
+                    <span class="text-2xl font-semibold">MageExplorers</span>
+                </div>
+                <p class="mb-4">Expert Adobe Commerce & Magento consulting.</p>
+                <p class="text-sm">Proudly self-hosted and infrastructure-first.</p>
+            </div>
+            
+            <div class="flex flex-col md:items-end">
+                <h3 class="text-white font-medium mb-4">Get in touch</h3>
+                <a href="mailto:info@magentoexplorers.com" class="hover:text-white transition-colors flex items-center gap-2">
+                    <i class="fas fa-envelope"></i> info@magentoexplorers.com
+                </a>
+                <div class="mt-8 flex gap-6 text-2xl">
+                    <a href="https://github.com/MageExplorers" target="_blank" class="hover:text-white"><i class="fab fa-github"></i></a>
+                    <a href="https://bradclampitt.github.io/" target="_blank" class="hover:text-white"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center text-xs mt-16 text-gray-500 border-t border-gray-800 pt-8">
+            © 2026 MageExplorers. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        // Tailwind script already loaded via CDN
+    </script>
+</body>
+</html>
